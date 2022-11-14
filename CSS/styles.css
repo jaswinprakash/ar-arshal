@@ -46,68 +46,75 @@ br.clear {
 .wrapper {
     width: 90%;
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1280px;
 }
 .flex-wrapper {
     display: flex;
     justify-content: space-between;
 }
-@font-face {
-    font-family: 'Inter';
-    src: url('Inter-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
+header h1.left {
+    width: 180px;
+}
+header h1.left a {
+    display: block;
+    width: 100%;
+}
+header h1.left a img {
+    display: block;
+    width: 100%;
+}
+header nav.middle {
+}
+header nav.middle ul {
+    display: flex;
+    align-items: center;
+}
+header nav.middle ul li {
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+header nav.middle ul li:last-child {
+    margin-right: 0;
+}
+header nav.right {
 
-@font-face {
-    font-family: 'Inter';
-    src: url('Inter-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
 }
-
-@font-face {
-    font-family: 'Inter';
-    src: url('Inter-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+header nav.right ul {
+    display: flex;
+    align-items: center;
 }
-header{
-
+header nav.right ul li {
+    width: 20px;
+    margin-right: 25px;
 }
-header h1.left{
-
+header nav.right ul li img {
+    display: block;
+    width: 100%;
 }
-header h1.left.a{
-
+header nav.right ul li:last-child {
+    background: #ff8e0c;
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
 }
-header h1.left.a img{
+header nav.right ul li:last-child img {
+    display:block;
+    width: 100%;
+    max-width: 20px;
+    text-align: center;
     
-}
-header nav.middle{
-
-}
-header nav.middle ul{
-    
-}
-header nav.middle ul li{
-    
-}
-header nav.right{
-
-}
-header nav.right ul{
-
-}
-header nav.right ul li{
-
-}
-header nav.right ul li img.search{
-
-}
-header nav.right ul li a img.buy{
-
 }
