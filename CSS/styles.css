@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ol,
+ul {
+    list-style: none;
+}
+body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #000;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
+}
+input,
+textarea,
+select {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+a {
+    color: #000;
+}
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: "Inter", Arial;
+    font-weight: 500;
+    color: #000;
+}
+br.clear {
+    clear: both;
+    line-height: 0;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+header{
+
+}
+header h1.left{
+
+}
+header h1.left.a{
+
+}
+header h1.left.a img{
+    
+}
+header nav.middle{
+
+}
+header nav.middle ul{
+    
+}
+header nav.middle ul li{
+    
+}
+header nav.right{
+
+}
+header nav.right ul{
+
+}
+header nav.right ul li{
+
+}
+header nav.right ul li img.search{
+
+}
+header nav.right ul li a img.buy{
+
+}
