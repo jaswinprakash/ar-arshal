@@ -72,22 +72,17 @@ header h1.left a img {
     display: block;
     width: 100%;
 }
-header nav.middle {
-}
 header nav.middle ul {
     display: flex;
     align-items: center;
 }
 header nav.middle ul li {
     margin-right: 40px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
 }
 header nav.middle ul li:last-child {
     margin-right: 0;
-}
-header nav.right {
-
 }
 header nav.right ul {
     display: flex;
@@ -102,7 +97,7 @@ header nav.right ul li img {
     width: 100%;
 }
 header nav.right ul li:last-child {
-    background: #ff8e0c;
+    background: #fe8e0b;
     width: 35px;
     height: 35px;
     border-radius: 6px;
@@ -112,9 +107,8 @@ header nav.right ul li:last-child {
     margin-right: 0;
 }
 header nav.right ul li:last-child img {
-    display:block;
+    display: block;
     width: 100%;
     max-width: 20px;
     text-align: center;
-    
 }
