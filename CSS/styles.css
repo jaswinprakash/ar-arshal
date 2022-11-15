@@ -206,3 +206,36 @@ header nav.right ul li:last-child img {
     transform: skew(-20deg, 0deg);
     border-radius: 6px;
 }
+#brands {
+    background: #f6f5f1;
+    padding: 10px 0;
+}
+#brands ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#brands ul li {
+    width: 140px;
+}
+#brands ul li:nth-child(2) {
+    width: 120px;
+}
+#brands ul li:nth-child(3) {
+    width: 84px;
+}
+#brands ul li:nth-child(4) {
+    width: 150px;
+}
+#brands ul li:nth-child(5) {
+    width: 185px;
+}
+#brands ul li a {
+    display: block;
+    width: 100%;
+}
+
+#brands ul li a img {
+    display: block;
+    width: 100%;
+}
