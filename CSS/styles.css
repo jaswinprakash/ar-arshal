@@ -116,26 +116,39 @@ header nav.right ul li:last-child img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 35px auto;
 }
-#spotlight section.img-container {
-    width: 1100px;
+#spotlight section.img-container{
+    max-width: 50%;
 }
-#spotlight section.img-container img {
+#spotlight section.img-container div {
+    width: 640px;
+    height: 640px;
+}
+#spotlight section.img-container div img {
     width: 100%;
+    display: block;
 }
 #spotlight section.content {
-    width: 50%;
+    width: 90%;
+    margin-left: 150px;
+    margin-top: 130px;
 }
 #spotlight section.content span {
+    display: inline-block;
     font-size: 16px;
     font-weight: normal;
 }
 #spotlight section.content h1 {
-    font-size: 138px;
-    font-weight: 500;
+    font-size: 110px;
+    font-weight: 600;
     font-family: serif;
+    max-width: 70%;
 }
 #spotlight section.content p {
+    max-width: 67%;
+    font-size: 16px;
+    font-weight: normal;
 }
 #spotlight section.content a.button-buy {
 }
