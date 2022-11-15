@@ -116,7 +116,7 @@ header nav.right ul li:last-child img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px auto 0;
+    margin: 20px auto 250px;
 }
 #spotlight section.img-container {
     max-width: 50%;
@@ -208,15 +208,19 @@ header nav.right ul li:last-child img {
 }
 #brands {
     background: #f6f5f1;
-    padding: 10px 0;
+    padding: 45px 0;
 }
 #brands ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    max-width: 90%;
 }
 #brands ul li {
     width: 140px;
+    margin-left: 130px;
+    align-items: flex-end;
+    margin-right: -140px;
 }
 #brands ul li:nth-child(2) {
     width: 120px;
