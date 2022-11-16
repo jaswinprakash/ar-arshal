@@ -270,14 +270,19 @@ header nav.right ul li:last-child img {
 }
 #about section.container-box div.content p {
     font-size: 17px;
-    width: 87%;
+    max-width: 87%;
     font-weight: normal;
+}
+#about section.container-box div.content p.top {
+    margin-bottom: 15px;
+}
+#about section.container-box div.content p.bottom {
     margin-bottom: 30px;
 }
 #about section.container-box div.content a.button {
     position: relative;
     width: 120px;
-    padding: 18px 50px;
+    padding: 18px 45px;
     position: relative;
     color: #fff;
     background: #3a2929;
@@ -306,66 +311,172 @@ header nav.right ul li:last-child img {
     display: block;
     width: 100%;
 }
-#features {
-}
+
 #features section.top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 #features section.top div.left {
+    max-width: 45%;
 }
-#features section.top div.left img {
+#features section.top div.left div.img-container {
+    width: 570px;
+}
+#features section.top div.left div.img-container img {
+    display: block;
+    width: 100%;
 }
 #features section.top div.right {
+    margin-left: 30px;
 }
 #features section.top div.right div.img-container {
+    width: 650px;
+    margin: 0 auto 110px;
 }
 #features section.top div.right div.img-container img {
+    display: block;
+    width: 100%;
 }
 #features section.top div.right h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    max-width: 80%;
 }
 #features section.top div.right p {
+    font-size: 17px;
+    max-width: 95%;
+    font-weight: normal;
+}
+#features section.top div.right p.top {
+    margin-bottom: 15px;
+}
+#features section.top div.right p.bottom {
+    margin-bottom: 50px;
 }
 #features section.top div.right a.button {
+    position: relative;
+    width: 120px;
+    padding: 18px 45px;
+    position: relative;
+    color: #fff;
+    background: #3a2929;
+    border-radius: 6px;
+    font-size: 13px;
 }
 #features section.top div.right a.button::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #3a2929;
+    transform-origin: bottom left;
+    transform: skew(-20deg, 0deg);
+    border-radius: 6px;
 }
 #features section.middle {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 #features section.middle div.left {
+    max-width: 45%;
 }
 #features section.middle div.left div.img-container {
+    width: 650px;
+    margin: 0 auto 110px;
 }
 #features section.middle div.left div.img-container img {
+    display: block;
+    width: 100%;
 }
 #features section.middle div.left h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    max-width: 70%;
 }
 #features section.middle div.left p {
+    font-size: 17px;
+    max-width: 112%;
+    font-weight: normal;
+}
+#features section.middle div.left p.top {
+    margin-bottom: 15px;
+}
+#features section.middle div.left p.bottom {
+    margin-bottom: 50px;
 }
 #features section.middle div.left a.button {
+    position: relative;
+    width: 120px;
+    padding: 18px 45px;
+    position: relative;
+    color: #fff;
+    background: #3a2929;
+    border-radius: 6px;
+    font-size: 13px;
 }
 #features section.middle div.left a.button::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #3a2929;
+    transform-origin: bottom left;
+    transform: skew(-20deg, 0deg);
+    border-radius: 6px;
 }
 #features section.middle div.right {
+    max-width: 45%;
 }
-#features section.middle div.right img {
+#features section.middle div.right div.img-container {
+    width: 570px;
+}
+#features section.middle div.right div.img-container img {
+    display: block;
+    width: 100%;
 }
 #features section.bottom {
     display: flex;
     justify-content: space-between;
 }
 #features section.bottom div.left {
+    max-width: 45%;
 }
-#features section.bottom div.left img {
+#features section.bottom div.left div.img-container {
+    width: 570px;
+}
+#features section.bottom div.left div.img-container img {
+    display: block;
+    width: 100%;
 }
 #features section.bottom div.right {
+    margin-left: 30px;
+}
+#features section.bottom div.right div.img-container {
+    width: 650px;
+    margin: 0 auto 110px;
+}
+#features section.bottom div.right div.img-container img {
+    display: block;
+    width: 100%;
 }
 #features section.bottom div.right h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
-#features section.bottom div.right h2 {
-}
+
 #features section.bottom div.right form {
 }
 #features section.bottom div.right form input[type="email"] {
