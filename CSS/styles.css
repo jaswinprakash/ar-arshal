@@ -246,6 +246,7 @@ header nav.right ul li:last-child img {
     width: 100%;
 }
 #about {
+    margin-bottom: 100px;
 }
 #about section.container-box {
     display: flex;
@@ -265,17 +266,24 @@ header nav.right ul li:last-child img {
 #about section.container-box div.content h2 {
     font-size: 60px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 #about section.container-box div.content p {
+    font-size: 17px;
+    width: 87%;
+    font-weight: normal;
+    margin-bottom: 30px;
 }
 #about section.container-box div.content a.button {
     position: relative;
     width: 120px;
-    padding: 15px 50px;
+    padding: 18px 50px;
     position: relative;
     color: #fff;
     background: #3a2929;
     border-radius: 6px;
+    font-size: 13px;
+
 }
 
 #about section.container-box div.content a.button::after {
@@ -291,9 +299,6 @@ header nav.right ul li:last-child img {
     transform-origin: bottom left;
     transform: skew(-20deg, 0deg);
     border-radius: 6px;
-}
-#about section.container-box div.content a.button span {
-    font-size: 13px;
 }
 #about section.container-box div.img-container {
     width: 427px;
