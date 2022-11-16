@@ -161,7 +161,7 @@ header nav.right ul li:last-child img {
     width: 120px;
     padding: 15px 50px;
     position: relative;
-    color: #fff;
+    color: #feeddb;
     background: #fe8e0b;
     border-radius: 6px;
 }
@@ -188,7 +188,7 @@ header nav.right ul li:last-child img {
     width: 120px;
     padding: 18px 40px;
     position: relative;
-    color: #fff;
+    color: #feeddb;
     background: #3a2929;
     font-size: 13px;
     border-radius: 6px;
@@ -284,7 +284,7 @@ header nav.right ul li:last-child img {
     width: 120px;
     padding: 18px 45px;
     position: relative;
-    color: #fff;
+    color: #feeddb;
     background: #3a2929;
     border-radius: 6px;
     font-size: 13px;
@@ -311,7 +311,9 @@ header nav.right ul li:last-child img {
     display: block;
     width: 100%;
 }
-
+#features {
+    margin-bottom: 240px;
+}
 #features section.top {
     display: flex;
     justify-content: space-between;
@@ -360,7 +362,7 @@ header nav.right ul li:last-child img {
     width: 120px;
     padding: 18px 45px;
     position: relative;
-    color: #fff;
+    color: #feeddb;
     background: #3a2929;
     border-radius: 6px;
     font-size: 13px;
@@ -417,7 +419,7 @@ header nav.right ul li:last-child img {
     width: 120px;
     padding: 18px 45px;
     position: relative;
-    color: #fff;
+    color: #feeddb;
     background: #3a2929;
     border-radius: 6px;
     font-size: 13px;
@@ -465,7 +467,7 @@ header nav.right ul li:last-child img {
 }
 #features section.bottom div.right div.img-container {
     width: 650px;
-    margin: 0 auto 110px;
+    margin: 0 auto 200px;
 }
 #features section.bottom div.right div.img-container img {
     display: block;
@@ -474,12 +476,27 @@ header nav.right ul li:last-child img {
 #features section.bottom div.right h2 {
     font-size: 60px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin: 0 0 40px 130px;
 }
 
 #features section.bottom div.right form {
+    margin-left: 130px;
 }
 #features section.bottom div.right form input[type="email"] {
+    background: #fafafa;
+    width: 240px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-left: 20px;
 }
 #features section.bottom div.right form button {
+    cursor: pointer;
+    background: #3a2929;
+    color: #feeddb;
+    height: 60px;
+    width: 150px;
+    border-radius: 6px;
+    margin-left: 13px;
+    font-size: 16px;
 }
