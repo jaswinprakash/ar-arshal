@@ -261,7 +261,7 @@ header nav.right ul li:last-child img {
 }
 #about section.container-box div.content {
     width: 58%;
-    margin: 0 auto;
+    margin-left: 70px;
 }
 #about section.container-box div.content h2 {
     font-size: 60px;
@@ -283,7 +283,6 @@ header nav.right ul li:last-child img {
     background: #3a2929;
     border-radius: 6px;
     font-size: 13px;
-
 }
 
 #about section.container-box div.content a.button::after {
@@ -306,4 +305,70 @@ header nav.right ul li:last-child img {
 #about section.container-box div.img-container img {
     display: block;
     width: 100%;
+}
+#features {
+}
+#features section.top {
+    display: flex;
+    justify-content: space-between;
+}
+#features section.top div.left {
+}
+#features section.top div.left img {
+}
+#features section.top div.right {
+}
+#features section.top div.right div.img-container {
+}
+#features section.top div.right div.img-container img {
+}
+#features section.top div.right h1 {
+}
+#features section.top div.right p {
+}
+#features section.top div.right a.button {
+}
+#features section.top div.right a.button::after {
+}
+#features section.middle {
+    display: flex;
+    justify-content: space-between;
+}
+#features section.middle div.left {
+}
+#features section.middle div.left div.img-container {
+}
+#features section.middle div.left div.img-container img {
+}
+#features section.middle div.left h1 {
+}
+#features section.middle div.left p {
+}
+#features section.middle div.left a.button {
+}
+#features section.middle div.left a.button::after {
+}
+#features section.middle div.right {
+}
+#features section.middle div.right img {
+}
+#features section.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+#features section.bottom div.left {
+}
+#features section.bottom div.left img {
+}
+#features section.bottom div.right {
+}
+#features section.bottom div.right h2 {
+}
+#features section.bottom div.right h2 {
+}
+#features section.bottom div.right form {
+}
+#features section.bottom div.right form input[type="email"] {
+}
+#features section.bottom div.right form button {
 }
