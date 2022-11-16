@@ -95,6 +95,7 @@ header nav.right ul li {
 header nav.right ul li img {
     display: block;
     width: 100%;
+    cursor: pointer;
 }
 header nav.right ul li:last-child {
     background: #fe8e0b;
@@ -209,6 +210,7 @@ header nav.right ul li:last-child img {
 #brands {
     background: #f6f5f1;
     padding: 45px 0;
+    margin-bottom: 100px;
 }
 #brands ul {
     display: flex;
@@ -240,6 +242,63 @@ header nav.right ul li:last-child img {
 }
 
 #brands ul li a img {
+    display: block;
+    width: 100%;
+}
+#about {
+}
+#about section.container-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dedddc;
+    border-radius: 18px;
+    position: relative;
+    z-index: -2;
+    height: 640px;
+    width: 100%;
+}
+#about section.container-box div.content {
+    width: 58%;
+    margin: 0 auto;
+}
+#about section.container-box div.content h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+#about section.container-box div.content p {
+}
+#about section.container-box div.content a.button {
+    position: relative;
+    width: 120px;
+    padding: 15px 50px;
+    position: relative;
+    color: #fff;
+    background: #3a2929;
+    border-radius: 6px;
+}
+
+#about section.container-box div.content a.button::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #3a2929;
+    transform-origin: bottom left;
+    transform: skew(-20deg, 0deg);
+    border-radius: 6px;
+}
+#about section.container-box div.content a.button span {
+    font-size: 13px;
+}
+#about section.container-box div.img-container {
+    width: 427px;
+}
+#about section.container-box div.img-container img {
     display: block;
     width: 100%;
 }
