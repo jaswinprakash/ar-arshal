@@ -251,13 +251,10 @@ header nav.right ul li:last-child img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #dedddc;
     border-radius: 18px;
     position: relative;
     z-index: -2;
     height: 640px;
-    width: 100%;
-    padding-bottom: 100px;
     background: #dedddc url(../images/about.jpg) no-repeat;
     background-size: 449px;
     background-position: 833px -20px;
@@ -265,7 +262,6 @@ header nav.right ul li:last-child img {
 #about section.container-box div.content {
     width: 58%;
     margin-left: 70px;
-    margin-top: 70px;
 }
 #about section.container-box div.content h2 {
     font-size: 60px;
@@ -619,4 +615,53 @@ footer section.container div.item-middle ul li {
     margin-bottom: 15px;
     font-size: 14px;
     font-weight: 500;
+}
+@media all and (max-width: 1380px) {
+    #spotlight {
+        margin: 0px auto 120px;
+    }
+    #spotlight section.content {
+        width: 80%;
+    }
+    #spotlight section.content h1 {
+        max-width: 76%;
+    }
+    #spotlight section.content p {
+        max-width: 87%;
+    }
+    #spotlight section.img-container {
+        max-width: 38%;
+    }
+    #features section.top div.left div.img-container {
+        width: 500px;
+    }
+    #features section.top div.right div.img-container {
+        margin: 0 auto 65px;
+    }
+    #features section.top div.right h1 {
+        max-width: 88%;
+    }
+    #features section.middle div.right div.img-container {
+        width: 500px;
+    }
+    #features section.middle div.left div.img-container {
+        margin: 0 auto 65px;
+    }
+    #features section.middle div.left {
+        max-width: 50%;
+    }
+}
+@media all and (max-width: 1280px) {
+}
+@media all and (max-width: 1080px) {
+}
+@media all and (max-width: 980px) {
+}
+@media all and (max-width: 768px) {
+}
+@media all and (max-width: 640px) {
+}
+@media all and (max-width: 480px) {
+}
+@media all and (max-width: 360px) {
 }
