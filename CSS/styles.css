@@ -501,7 +501,7 @@ header nav.right ul li:last-child img {
     font-size: 16px;
 }
 #blog {
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 #blog section.top {
     margin-bottom: 50px;
@@ -549,5 +549,80 @@ header nav.right ul li:last-child img {
 #blog section.bottom ul li p {
     text-align: center;
     font-size: 17px;
+    font-weight: 500;
+}
+footer {
+    background: #dadade url(../images/footer-image.jpg) no-repeat;
+    height: 59vh;
+    background-size: 20%;
+    background-position: right 63px;
+    display: flex;
+    align-items: center;
+}
+footer section.img-container {
+    max-width: 100px;
+}
+footer section.img-container img {
+    width: 100%;
+    transform: scaleX(-1);
+}
+footer section.container {
+    display: flex;
+    align-items: center;
+    max-width: 85%;
+}
+footer section.container div.item-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer section.container div.item-left h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+footer section.container div.item-left a {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+footer section.container div.item-left div.social {
+}
+footer section.container div.item-left div.social ul {
+    display: flex;
+}
+footer section.container div.item-left div.social ul li {
+    margin-right: 15px;
+}
+footer section.container div.item-left div.social ul li:last-child {
+    margin-right: 0;
+}
+footer section.container div.item-left div.social ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: #fe8f0a;
+}
+footer section.container div.item-left div.social ul li a img {
+    width: 19px;
+    filter: invert(100%);
+}
+footer section.container div.item-middle {
+    margin: 0 auto;
+}
+footer section.container div.item-middle h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+footer section.container div.item-middle ul {
+}
+footer section.container div.item-middle ul li {
+    margin-bottom: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
