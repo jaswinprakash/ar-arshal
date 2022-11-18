@@ -240,7 +240,6 @@ header nav.right ul li:last-child img {
     display: block;
     width: 100%;
 }
-
 #brands ul li a img {
     display: block;
     width: 100%;
@@ -258,10 +257,15 @@ header nav.right ul li:last-child img {
     z-index: -2;
     height: 640px;
     width: 100%;
+    padding-bottom: 100px;
+    background: #dedddc url(../images/about.jpg) no-repeat;
+    background-size: 449px;
+    background-position: 833px -20px;
 }
 #about section.container-box div.content {
     width: 58%;
     margin-left: 70px;
+    margin-top: 70px;
 }
 #about section.container-box div.content h2 {
     font-size: 60px;
@@ -303,13 +307,6 @@ header nav.right ul li:last-child img {
     transform-origin: bottom left;
     transform: skew(-20deg, 0deg);
     border-radius: 6px;
-}
-#about section.container-box div.img-container {
-    width: 427px;
-}
-#about section.container-box div.img-container img {
-    display: block;
-    width: 100%;
 }
 #features {
     padding-bottom: 220px;
@@ -516,17 +513,17 @@ header nav.right ul li:last-child img {
     justify-content: space-between;
     align-items: center;
 }
-#blog section.bottom ul li:nth-child(3) {
-    margin-left: 36px;
-}
 #blog section.bottom ul li:nth-child(2) {
     margin-left: 21px;
+}
+#blog section.bottom ul li:nth-child(3) {
+    margin-left: 40px;
 }
 #blog section.bottom ul li div.img-container {
     margin: 0 auto;
 }
 #blog section.bottom ul li:nth-child(1) div.img-container {
-    width: 365px;
+    width: 359px;
 }
 #blog section.bottom ul li:nth-child(2) div.img-container {
     width: 400px;
@@ -554,8 +551,8 @@ header nav.right ul li:last-child img {
 footer {
     background: #dadade url(../images/footer-image.jpg) no-repeat;
     height: 59vh;
-    background-size: 20%;
-    background-position: right 63px;
+    background-size: 17%;
+    background-position: right 69px;
     display: flex;
     align-items: center;
 }
@@ -575,6 +572,7 @@ footer section.container div.item-left {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 50px;
 }
 footer section.container div.item-left h5 {
     font-size: 22px;
@@ -586,8 +584,6 @@ footer section.container div.item-left a {
     margin-bottom: 15px;
     font-size: 14px;
     font-weight: 500;
-}
-footer section.container div.item-left div.social {
 }
 footer section.container div.item-left div.social ul {
     display: flex;
@@ -618,8 +614,6 @@ footer section.container div.item-middle h5 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
-}
-footer section.container div.item-middle ul {
 }
 footer section.container div.item-middle ul li {
     margin-bottom: 15px;
