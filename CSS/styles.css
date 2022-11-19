@@ -757,6 +757,7 @@ footer section.container div.item-middle ul li {
     }
     #spotlight section.img-container div {
         width: 550px;
+        height: 550px;
     }
     #spotlight section.content {
         margin-left: 136px;
@@ -842,8 +843,57 @@ footer section.container div.item-middle ul li {
     #features section.bottom div.right form button {
         height: 50px;
     }
+    #blog section.bottom ul li:nth-child(1) div.img-container {
+        width: 230px;
+    }
+    #blog section.bottom ul li:nth-child(2) div.img-container {
+        width: 258px;
+    }
+    #blog section.bottom ul li:nth-child(3) div.img-container {
+        width: 259px;
+    }
 }
 @media all and (max-width: 980px) {
+    #spotlight section.img-container div {
+        width: 450px;
+        height: 450px;
+    }
+    #spotlight section.content {
+        margin-left: 108px;
+    }
+    #spotlight section.content span {
+        font-size: 14px;
+    }
+    #spotlight section.content p {
+        max-width: 100%;
+    }
+    #about section.container-box {
+        background-position: 395px -20px;
+        height: 420px;
+        background-size: 300px;
+    }
+    #about section.container-box div.content {
+        width: 67%;
+        margin-left: 38px;
+    }
+    #about section.container-box div.content h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    #features section.top div.left div.img-container {
+        width: 315px;
+    }
+    #features section.top div.right div.img-container {
+        width: 330px;
+        margin-bottom: 30px;
+    }
+    #features section.top div.right h1 {
+        font-size: 35px;
+    }
+    #features section.top div.right {
+        margin-left: 20px;
+        width: 50%;
+    }
 }
 @media all and (max-width: 768px) {
 }
