@@ -656,10 +656,114 @@ footer section.container div.item-middle ul li {
     #features section.bottom div.right h2 {
         margin-left: 100px;
     }
+    #blog section.bottom ul li:nth-child(1) div.img-container {
+        width: 313px;
+    }
+    #blog section.bottom ul li:nth-child(2) div.img-container {
+        width: 349px;
+    }
+    #blog section.bottom ul li:nth-child(3) div.img-container {
+        width: 354px;
+    }
 }
 @media all and (max-width: 1280px) {
+    #spotlight {
+        margin-bottom: 150px;
+    }
+    #spotlight section.content {
+        margin-top: 120px;
+    }
+    #spotlight section.content h1 {
+        font-size: 100px;
+    }
+    #spotlight section.img-container {
+        max-width: 30%;
+    }
+    #about section.container-box {
+        background-position: 600px -20px;
+        height: 570px;
+    }
+    #about section.container-box div.content h2 {
+        font-size: 45px;
+    }
+    #about section.container-box div.content p {
+        font-size: 15px;
+    }
+    #features section.top div.right div.img-container {
+        width: 490px;
+    }
+    #features section.middle div.left div.img-container {
+        width: 490px;
+    }
+    #features section.bottom div.right div.img-container {
+        width: 490px;
+    }
+    #features section.top div.left div.img-container {
+        width: 420px;
+    }
+    #features section.top div.right h1 {
+        font-size: 45px;
+    }
+    #features section.top div.right p {
+        font-size: 15px;
+    }
+    #features section.middle div.right div.img-container {
+        width: 420px;
+    }
+    #features section.middle div.left h1 {
+        font-size: 45px;
+    }
+    #features section.middle div.left p {
+        font-size: 15px;
+    }
+    #features section.bottom div.left div.img-container {
+        width: 420px;
+    }
+    #features section.bottom div.right h2 {
+        font-size: 45px;
+    }
+    #features section.bottom div.right div.img-container {
+        margin-bottom: 100px;
+    }
+    #features section.bottom div.right form input[type="email"] {
+        width: 200px;
+        font-size: 14px;
+    }
+    #features section.bottom div.right form button {
+        width: 120px;
+        font-size: 14px;
+    }
+    #blog section.bottom ul li:nth-child(1) div.img-container {
+        width: 260px;
+    }
+    #blog section.bottom ul li:nth-child(2) div.img-container {
+        width: 287px;
+    }
+    #blog section.bottom ul li:nth-child(3) div.img-container {
+        width: 293px;
+    }
 }
+
 @media all and (max-width: 1080px) {
+    #spotlight section.content h1 {
+        font-size: 95px;
+    }
+    #brands ul li{
+        margin-left: 50px;
+        width: 120px;
+    }
+    #brands ul li:nth-child(2){
+        width: 100px;
+    }
+    #brands ul li:nth-child(3){
+        width: 75px;
+    }
+    #brands ul li:nth-child(4){
+        width: 120px;
+    }
+    #brands ul li:nth-child(5){
+        width: 145px;
+    }
 }
 @media all and (max-width: 980px) {
 }
