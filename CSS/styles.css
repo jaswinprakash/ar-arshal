@@ -215,7 +215,7 @@ header nav.right ul li:last-child img {
 #brands ul {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     max-width: 90%;
 }
 #brands ul li {
@@ -745,24 +745,102 @@ footer section.container div.item-middle ul li {
 }
 
 @media all and (max-width: 1080px) {
-    #spotlight section.content h1 {
-        font-size: 95px;
+    #spotlight {
+        margin-bottom: 80px;
     }
-    #brands ul li{
-        margin-left: 50px;
+    #spotlight section.content h1 {
+        font-size: 73px;
+    }
+    #spotlight section.content p {
+        max-width: 88%;
+        font-size: 15px;
+    }
+    #spotlight section.img-container div {
+        width: 550px;
+    }
+    #spotlight section.content {
+        margin-left: 136px;
+    }
+    #brands {
+        padding: 25px 0;
+    }
+    #brands ul {
+        margin: 0 auto;
+    }
+    #brands ul li {
+        margin-right: 10px;
+        margin-left: 10px;
         width: 120px;
     }
-    #brands ul li:nth-child(2){
+    #brands ul li:nth-child(2) {
         width: 100px;
     }
-    #brands ul li:nth-child(3){
+    #brands ul li:nth-child(3) {
         width: 75px;
     }
-    #brands ul li:nth-child(4){
+    #brands ul li:nth-child(4) {
         width: 120px;
     }
-    #brands ul li:nth-child(5){
+    #brands ul li:nth-child(5) {
         width: 145px;
+    }
+    #features {
+        padding-bottom: 140px;
+    }
+    #features section.top div.right div.img-container {
+        width: 425px;
+        margin-bottom: 30px;
+    }
+    #features section.top div.right {
+        margin-left: 55px;
+    }
+    #features section.top div.right h1 {
+        font-size: 40px;
+    }
+    #features section.top div.right p {
+        font-size: 14px;
+    }
+    #features section.top div.right p.bottom {
+        margin-bottom: 35px;
+    }
+    #features section.top div.right p.top {
+        margin-bottom: 10px;
+    }
+    #features section.middle div.left {
+        max-width: 47%;
+    }
+    #features section.middle div.left div.img-container {
+        width: 425px;
+        margin-bottom: 30px;
+    }
+    #features section.middle div.left h1 {
+        font-size: 40px;
+    }
+    #features section.middle div.left p {
+        font-size: 14px;
+    }
+    #features section.middle div.left p.bottom {
+        margin-bottom: 35px;
+    }
+    #features section.middle div.left p.top {
+        margin-bottom: 10px;
+    }
+    #features section.bottom div.right div.img-container {
+        width: 425px;
+        margin-bottom: 150px;
+    }
+    #features section.bottom div.right h2 {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    #features section.bottom div.right form {
+        margin-left: 50px;
+    }
+    #features section.bottom div.right form input[type="email"] {
+        height: 50px;
+    }
+    #features section.bottom div.right form button {
+        height: 50px;
     }
 }
 @media all and (max-width: 980px) {
