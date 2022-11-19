@@ -650,6 +650,12 @@ footer section.container div.item-middle ul li {
     #features section.middle div.left {
         max-width: 50%;
     }
+    #features section.bottom div.left div.img-container {
+        width: 500px;
+    }
+    #features section.bottom div.right h2 {
+        margin-left: 100px;
+    }
 }
 @media all and (max-width: 1280px) {
 }
