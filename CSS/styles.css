@@ -854,6 +854,12 @@ footer section.container div.item-middle ul li {
     }
 }
 @media all and (max-width: 980px) {
+    header h1.left {
+        width: 145px;
+    }
+    header nav.middle ul li {
+        margin-right: 17px;
+    }
     #spotlight section.img-container div {
         width: 450px;
         height: 450px;
@@ -865,6 +871,9 @@ footer section.container div.item-middle ul li {
         font-size: 14px;
     }
     #spotlight section.content p {
+        max-width: 100%;
+    }
+    #brands ul {
         max-width: 100%;
     }
     #about section.container-box {
@@ -880,6 +889,9 @@ footer section.container div.item-middle ul li {
         font-size: 35px;
         margin-bottom: 10px;
     }
+    #features {
+        padding-bottom: 100px;
+    }
     #features section.top div.left div.img-container {
         width: 315px;
     }
@@ -893,6 +905,42 @@ footer section.container div.item-middle ul li {
     #features section.top div.right {
         margin-left: 20px;
         width: 50%;
+    }
+    #features section.middle div.right div.img-container {
+        width: 315px;
+    }
+    #features section.middle div.left h1 {
+        font-size: 35px;
+    }
+    #features section.middle div.left div.img-container {
+        width: 330px;
+    }
+    #features section.bottom div.right div.img-container {
+        width: 330px;
+        margin-bottom: 100px;
+    }
+    #features section.bottom div.left div.img-container {
+        width: 315px;
+    }
+    #features section.bottom div.right h2 {
+        font-size: 35px;
+        margin-left: 5px;
+    }
+    #features section.bottom div.right form {
+        margin-left: 5px;
+    }
+    #blog section.top h3 {
+        font-size: 45px;
+    }
+    #blog section.bottom ul li:nth-child(1) div.img-container {
+        width: 191px;
+    }
+    #blog section.bottom ul li:nth-child(2) div.img-container {
+        width: 218px;
+        margin-left: 20px;
+    }
+    #blog section.bottom ul li:nth-child(3) div.img-container {
+        width: 217px;
     }
 }
 @media all and (max-width: 768px) {
