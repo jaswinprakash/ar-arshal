@@ -893,6 +893,7 @@ footer section.container div.item-middle ul li {
     #features {
         padding-bottom: 100px;
     }
+
     #features section.top div.left div.img-container {
         width: 315px;
     }
@@ -907,9 +908,11 @@ footer section.container div.item-middle ul li {
         margin-left: 20px;
         width: 50%;
     }
+
     #features section.middle div.right div.img-container {
         width: 315px;
     }
+
     #features section.middle div.left h1 {
         font-size: 35px;
     }
@@ -945,6 +948,10 @@ footer section.container div.item-middle ul li {
     }
 }
 @media all and (max-width: 768px) {
+    header nav.middle ul li {
+        font-size: 14px;
+    }
+
     #spotlight {
         padding-bottom: 0;
         margin-bottom: 50px;
@@ -975,10 +982,16 @@ footer section.container div.item-middle ul li {
     #about section.container-box div.content {
         width: 100%;
     }
+    #features {
+        padding-bottom: 80px;
+    }
     #features section.top {
         flex-direction: column-reverse;
         align-items: center;
         margin-bottom: 60px;
+    }
+    #features section.top div.left {
+        max-width: 100%;
     }
     #features section.top div.right div.img-container {
         width: 450px;
@@ -1002,16 +1015,15 @@ footer section.container div.item-middle ul li {
         align-items: center;
         margin-bottom: 60px;
     }
-    #features section.bottom {
-        flex-direction: column-reverse;
-        align-items: center;
+
+    #features section.middle div.right {
+        max-width: 100%;
     }
+
     #features section.middle div.left div.img-container {
         width: 450px;
     }
-    #features section.middle div.left {
-        max-width: 100%;
-    }
+
     #features section.middle div.left h1 {
         font-size: 50px;
         text-align: center;
@@ -1023,6 +1035,14 @@ footer section.container div.item-middle ul li {
     }
     #features section.middle div.left {
         margin-bottom: 50px;
+        max-width: 100%;
+    }
+    #features section.bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #features section.bottom div.left {
+        max-width: 100%;
     }
     #features section.bottom div.right div.img-container {
         margin-bottom: 45px;
@@ -1038,6 +1058,29 @@ footer section.container div.item-middle ul li {
     #features section.bottom div.right form {
         text-align: center;
         margin-bottom: 50px;
+    }
+    #blog section.bottom ul {
+        flex-wrap: wrap;
+    }
+    #blog section.bottom ul li:nth-child(1) div.img-container {
+        width: 350px;
+    }
+    #blog section.bottom ul li p {
+        margin-bottom: 20px;
+    }
+    #blog section.bottom ul li:nth-child(2) div.img-container {
+        width: 340px;
+        margin-left: 100px;
+    }
+    #blog section.bottom ul li:nth-child(3) div.img-container {
+        width: 340px;
+        margin-right: 115px;
+    }
+    footer {
+        background: #dadade;
+    }
+    footer section.container {
+        max-width: 100%;
     }
 }
 @media all and (max-width: 640px) {
