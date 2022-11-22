@@ -1168,20 +1168,20 @@ footer section.container div.item ul li {
         font-size: 35px;
         width: 60%;
     }
-    #features section.middle div.left p{
+    #features section.middle div.left p {
         text-align: center;
     }
-    #features section.middle div.left a.button{
+    #features section.middle div.left a.button {
         padding: 13px 20px;
         margin-left: 165px;
     }
-    #features section.middle div.right div.img-container{
+    #features section.middle div.right div.img-container {
         width: 200px;
     }
-    #features section.bottom div.right div.img-container{
+    #features section.bottom div.right div.img-container {
         width: 280px;
     }
-    #features section.bottom div.right h2{
+    #features section.bottom div.right h2 {
         font-size: 35px;
         width: 60%;
     }
@@ -1191,7 +1191,7 @@ footer section.container div.item ul li {
     #features section.bottom div.right form button {
         height: 40px;
     }
-    #features section.bottom div.left div.img-container{
+    #features section.bottom div.left div.img-container {
         width: 200px;
     }
     #blog {
@@ -1231,19 +1231,125 @@ footer section.container div.item ul li {
         width: 310px;
         margin-right: 63px;
     }
-    footer section.container{
+    footer {
+        height: 73vh;
+    }
+    footer section.container {
         flex-wrap: wrap;
     }
-    footer section.container div.item-left{
+    footer section.container div.item-left {
         margin: 0 auto;
         width: 100%;
         margin-bottom: 20px;
     }
-    footer section.container div.middle{
+    footer section.container div.middle {
         text-align: center;
     }
 }
 @media all and (max-width: 480px) {
+    header {
+        height: 60px;
+    }
+    header h1.left {
+        width: 120px;
+    }
+    #spotlight {
+        margin-bottom: 20px;
+    }
+    #spotlight section.content {
+        width: 100%;
+        text-align: center;
+    }
+    #spotlight section.content span {
+        font-size: 13px;
+    }
+    #spotlight section.content h1 {
+        font-size: 35px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    #spotlight section.content p {
+        font-size: 14px;
+    }
+    #brands ul li {
+        margin-bottom: 20px;
+    }
+    #brands ul li:first-child {
+        width: 85px;
+    }
+    #brands ul li:nth-child(2) {
+        width: 40px;
+    }
+    #brands ul li:nth-child(3) {
+        width: 60px;
+    }
+    #brands ul li:nth-child(4) {
+        width: 80px;
+    }
+    #brands ul li:nth-child(5) {
+        width: 120px;
+    }
+    #about section.container-box div.content {
+        text-align: center;
+        margin: 0 auto;
+    }
+    #about section.container-box div.content p {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    #features section.top div.right div.img-container {
+        display: none;
+    }
+    #features section.top div.right a.button {
+        margin-left: 100px;
+    }
+    #features section.middle div.left div.img-container {
+        display: none;
+    }
+    #features section.middle div.left a.button {
+        margin-left: 100px;
+    }
+    #features section.bottom div.right {
+        margin-left: 0;
+    }
+    #features section.bottom div.right div.img-container {
+        display: none;
+    }
+    #features section.bottom div.right form input[type="email"] {
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+    #features section.bottom div.right form button {
+        margin-left: 0;
+    }
+    #blog section.bottom ul li p {
+        width: 95%;
+        margin-left: 10px;
+    }
+    #blog section.bottom ul li:nth-child(2) {
+        margin-left: 0;
+    }
+    #blog section.bottom ul li:nth-child(2) div.img-container {
+        margin-left: 9px;
+    }
+    #blog section.bottom ul li:nth-child(2) p {
+        width: 100%;
+        margin-left: 4px;
+    }
+    #blog section.bottom ul li:nth-child(3) {
+        margin-left: 0;
+    }
+    #blog section.bottom ul li:nth-child(3) div.img-container {
+        margin-right: 0;
+        margin-left: 8px;
+    }
+    #blog section.bottom ul li:last-child p {
+        width: 100%;
+        margin-left: 0;
+    }
 }
 @media all and (max-width: 360px) {
 }
