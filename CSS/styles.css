@@ -1352,4 +1352,104 @@ footer section.container div.item ul li {
     }
 }
 @media all and (max-width: 360px) {
+    header {
+        justify-content: center;
+    }
+    header nav.right {
+        display: none;
+    }
+    #brands ul {
+        width: 50%;
+    }
+    #brands ul li:first-child {
+        width: 80px;
+        margin: 10px auto;
+    }
+    #brands ul li:nth-child(2) {
+        width: 60px;
+        margin: 10px auto;
+    }
+    #brands ul li:nth-child(3) {
+        width: 70px;
+        margin: 10px auto;
+    }
+    #brands ul li:nth-child(4) {
+        width: 85px;
+        margin: 10px auto;
+    }
+    #brands ul li:nth-child(5) {
+        width: 100px;
+        margin: 10px auto;
+    }
+
+    #about section.container-box div.content p {
+        font-size: 14px;
+    }
+    #features {
+        padding-bottom: 0;
+    }
+    #features section.top {
+        margin-bottom: 20px;
+    }
+    #features section.top div.right h1 {
+        font-size: 30px;
+    }
+    #features section.top div.right p {
+        font-size: 15px;
+    }
+    #features section.top div.left div.img-container {
+        display: none;
+    }
+    #features section.middle {
+        margin-bottom: 20px;
+    }
+    #features section.middle div.left h1 {
+        font-size: 30px;
+    }
+    #features section.middle div.left p {
+        font-size: 15px;
+    }
+    #features section.middle div.right div.img-container {
+        display: none;
+    }
+    #features section.bottom div.left div.img-container {
+        display: none;
+    }
+    #blog section.bottom ul li:nth-child(1) div.img-container {
+        width: 204px;
+    }
+    #blog section.bottom ul li p {
+        font-size: 15px;
+    }
+    #blog section.bottom ul li:nth-child(2) p {
+        width: 95%;
+    }
+    #blog section.bottom ul li:last-child p {
+        width: 95%;
+    }
+    #blog section.bottom ul li:nth-child(2) div.img-container {
+        width: 209px;
+        margin-left: 40px;
+    }
+    #blog section.bottom ul li:nth-child(2) h2 {
+        width: 75%;
+        margin-left: 37px;
+    }
+    #blog section.bottom ul li:nth-child(3) div.img-container {
+        width: 212px;
+        margin-left: 37px;
+    }
+    #blog section.bottom ul li:last-child h2 {
+        width: 70%;
+        margin-left: 43px;
+    }
+    footer section.container div.item ul li {
+        margin-right: 33px;
+    }
+    footer section.container div.item h5 {
+        font-size: 19px;
+    }
+    footer section.container div.item ul li {
+        font-size: 13px;
+    }
 }
